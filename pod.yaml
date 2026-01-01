@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Streamlit
+  labels:
+    app: Streamlit
+spec:
+  containers:
+  - name: Streamlit
+    image: yehudali1/streamlit-test
+    ports:
+    - containerPort: 8501
+    
