@@ -1,0 +1,7 @@
+
+ docker build -t yehudali1/streamlit-test:v1 . 
+
+ docker run -p 8000:8501  aplication:v1
+
+ docker push yehudali1/streamlit-test:v1
+
